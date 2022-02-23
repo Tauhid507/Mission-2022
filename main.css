@@ -1,0 +1,123 @@
+header{
+  display: flex;
+  justify-content:space-around;
+  margin-left: 17px;
+  margin-top: 20px;
+}
+.brdr{
+  border-left: 5px solid;
+  border-image: linear-gradient(rgb(15, 255, 15),rgb(255, 34, 5));
+  border-image-slice: 1;
+}
+a{
+  text-decoration: none;
+  padding:10px;
+  border-radius:2px;
+  background-color: rgb(7, 113, 212) ;
+  color: white;
+  font-size: small;
+}
+.rd{
+  color: red;
+}
+.grn{
+  color: green;
+}
+.sec-text{
+  text-align: center;
+}
+.hd-width{
+  width: 50%;
+  padding-left: 10%;
+}
+.mission-width{
+  width:25%;
+  border-radius: 26px;
+  background-color:rgba(79, 157, 166, 0.1);
+  margin-left:100px;
+  padding-left:25px;
+}
+.vission-width{
+width:25%;
+border-radius: 26px;
+background-color:  rgba(255, 89, 89, 0.1);
+margin-left:20px;
+padding-left:25px;
+}
+.goals-width{
+width:26%;
+border-radius: 26px;
+background-color: #fff4d6;
+margin-left:20px;
+padding-left:22px;
+}
+.hd-width img{
+  width: 80%;
+  margin-bottom:100px;
+  padding-top:-5px;
+ 
+}
+hr{
+  width: 30px;
+}
+.sec-text{
+  margin-top: 5px;
+}
+.mission{
+  display: flex;
+  ;
+  margin-top:5px;
+}
+.mission img{
+  height: 141px;
+  width: 141px;
+}
+.develop{
+  margin-top:50px;
+  display: flex;
+}
+.develop-width{
+  width:50%;
+
+}
+.develop img{
+  margin-left:100px;
+  height: 350px;
+  width: 350px;
+}
+.develop-widths{
+  width: 50%;
+  padding-top:45px;
+  padding-right:78px;
+}
+.global{
+  display: flex;
+  margin-left:100px;
+  margin-top: 50px;
+}
+.global img{
+  height: 350px;
+  width: 350px;
+  padding-left: 30px;
+}
+.global-w{
+  width: 50%;
+}
+.hire{
+  display: flex;
+  margin-top: 60px;
+}
+.hire-img{
+  width: 25%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.hire-im{
+  width: 75%;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
